@@ -1,1 +1,17 @@
-<h1>Make the most of today</h1>
+<!DOCTYPE html>
+<html>
+<body>
+
+  <h1 style="margin-top:30vh;text-align:center">
+    Make the most of today <span style = "display: block; color: #e52615" id="be">be good</span>
+  </h1>
+
+<script>
+  const list = ["kind", "sincere", "disciplined"];
+  const one = Math.floor(Math.random() * list.length);
+  document.getElementById("be").innerText = `be ${list[one]}`;
+</script>
+
+</body>
+</html>
+
